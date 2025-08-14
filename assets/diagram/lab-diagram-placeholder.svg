@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520">
+  <rect x="0" y="0" width="900" height="520" fill="#111"/>
+  <text x="30" y="40" fill="#ddd" font-family="monospace" font-size="20">Homelab (placeholder)</text>
+  <rect x="30" y="70" width="200" height="80" fill="#222" stroke="#444"/>
+  <text x="40" y="100" fill="#ddd" font-family="monospace" font-size="14">EdgeRouter 4</text>
+  <rect x="260" y="70" width="200" height="80" fill="#222" stroke="#444"/>
+  <text x="270" y="100" fill="#ddd" font-family="monospace" font-size="14">Juniper EX2200</text>
+  <rect x="30" y="180" width="200" height="80" fill="#222" stroke="#444"/>
+  <text x="40" y="210" fill="#ddd" font-family="monospace" font-size="14">UniFi AP</text>
+  <rect x="260" y="180" width="200" height="80" fill="#222" stroke="#444"/>
+  <text x="270" y="210" fill="#ddd" font-family="monospace" font-size="14">ProLiant DL360p</text>
+  <rect x="490" y="180" width="200" height="80" fill="#222" stroke="#444"/>
+  <text x="500" y="210" fill="#ddd" font-family="monospace" font-size="14">C6100 Nodes</text>
+  <line x1="130" y1="150" x2="360" y2="150" stroke="#555"/>
+  <line x1="360" y1="150" x2="360" y2="180" stroke="#555"/>
+  <line x1="360" y1="110" x2="360" y2="150" stroke="#555"/>
+  <line x1="460" y1="110" x2="360" y2="110" stroke="#555"/>
+  <line x1="160" y1="150" x2="130" y2="110" stroke="#555"/>
+</svg>

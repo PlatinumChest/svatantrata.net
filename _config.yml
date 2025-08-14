@@ -1,0 +1,37 @@
+title: Svatantrata
+description: Personal site, projects, blog, and homelab notes.
+url: https://svatantrata.net
+baseurl: ""
+
+theme: minima
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation (minima: add pages to header)
+header_pages:
+  - projects.md
+  - blog.md
+  - resume.md
+  - lab.md
+
+# Socials (fill later)
+github_username: platinumchest
+author:
+  name: "Alex"
+  email: "alex@svatantrata.net"
+
+# Permalinks
+permalink: /blog/:year/:month/:day/:title/
+
+# Collections (optional later)
+# collections:
+#   notes:
+#     output: true
+
+# Use dark by default with a small CSS override
+minima:
+  skin: dark
