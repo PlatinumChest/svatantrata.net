@@ -4,8 +4,6 @@ title: Resume
 permalink: /resume/
 ---
 
-> One-pager. Replace with your final version later.
-
 **Name:** Alex  
 **Email:** alex@svatantrata.net  
 **Location:** Wisconsin, USA

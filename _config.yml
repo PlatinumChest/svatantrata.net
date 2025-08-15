@@ -20,10 +20,8 @@ header_pages:
   - lab.md
 
 # Socials (fill later)
-github_username: platinumchest
-author:
-  name: "Alex"
-  email: "alex@svatantrata.net"
+github_username: PlatinumChest
+author: "Alex"
 
 # Permalinks
 permalink: /blog/:year/:month/:day/:title/

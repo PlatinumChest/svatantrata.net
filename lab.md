@@ -4,8 +4,6 @@ title: Lab
 permalink: /lab/
 ---
 
-High-level map and service catalog. (Replace the diagram with your final one.)
-
 ### VLANs
 - **10**: Management
 - **20**: AI-Compute
