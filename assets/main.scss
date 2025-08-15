@@ -1,0 +1,90 @@
+---
+---
+
+@import "minima";
+
+/* ====== Dark polish ====== */
+:root {
+  --bg: #0b0f12;
+  --bg-elev: #12161b;
+  --text: #e8eaed;
+  --muted: #a1a7b3;
+  --link: #8ab4f8;
+  --border: #1f2630;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrapper { max-width: 1080px; }
+
+/* Header */
+.site-header {
+  background: rgba(18,22,27,.9);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: saturate(1.2) blur(6px);
+}
+.site-title, .site-title:visited { color: var(--text); }
+.site-nav .page-link { color: var(--text); opacity:.9; }
+.site-nav .page-link:hover { opacity:1; }
+
+/* Footer */
+.site-footer {
+  background: var(--bg-elev);
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}
+
+/* Cards for lists (projects/blog index) */
+.post-list > li, .page-content ul > li {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px 16px;
+  margin: 12px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,.15);
+}
+
+/* Code blocks */
+pre, code {
+  background: #0e1419 !important;
+  color: #e6edf3;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+pre { padding: 12px 14px; overflow: auto; }
+
+/* Tables */
+table {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+}
+th, td { border-color: var(--border); }
+
+/* Images / diagram nicety */
+img, svg { border-radius: 12px; }
+
+/* Buttons/links looking like buttons */
+.button, .btn {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, var(--bg-elev), #0d1217);
+}
+
+
+/* spacing + rhythm */
+h1,h2,h3 { line-height: 1.15; margin-top: 1.6em; margin-bottom: .6em; }
+p, li { line-height: 1.65; }
+.page-content { padding-top: 10px; }
+
+
+/* subtle hover on nav */
+.site-nav .page-link { transition: opacity .15s ease, transform .06s ease; }
+.site-nav .page-link:hover { opacity: 1; transform: translateY(-1px); }
