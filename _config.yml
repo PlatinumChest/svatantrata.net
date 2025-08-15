@@ -21,7 +21,7 @@ header_pages:
 
 # Socials (fill later)
 github_username: PlatinumChest
-author: "Alex"
+author: "Alexander"
 
 # Permalinks
 permalink: /blog/:year/:month/:day/:title/

@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-Welcome. I'm **Alexander** — CE-in-progress and homelabber.
+Welcome, I am **Alexander** — CE-in-progress and homelabber.
 This site tracks my projects, research, and infra build-outs.
 
 - **Projects:** hands-on builds, repos, writeups, and schematics
