@@ -12,10 +12,11 @@ permalink: /blog/
 
 <ul class="post-list">
 {% for post in posts %}
-  <li>
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-    <small>{{ post.date | date: "%b %d, %Y" }}</small>
-  </li>
+  {% include post_card.html
+     title=post.title
+     url=post.url
+     date=post.date
+     excerpt=post.excerpt %}
 {% endfor %}
 </ul>
 
