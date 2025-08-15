@@ -1,7 +1,13 @@
 ---
-layout: page
+layout: blog
 title: Blog
 permalink: /blog/
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: /blog/page:num/
+  sort_field: "date"
+  sort_reverse: true
 ---
 
 <ul class="post-list">
