@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Hello, world — site is live"
+title: "This site is Live!"
 ---
 
-Kicking off the site. Expect writeups on VLANs, PXE/iSCSI, K8s, power/cooling in a homelab, and any exciting things I want to write about.
+Now that the site is live there are alot of exciting things to be expecting like writups on the different things I do as well as well as anything that interests me!
 
 - DNS: Cloudflare → GitHub Pages (CNAME + A/ALIAS as needed)
 - Repo: `svatantrata` (GitHub Pages)
