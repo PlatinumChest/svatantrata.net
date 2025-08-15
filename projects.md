@@ -6,20 +6,25 @@ permalink: /projects/
 
 Below are a few active projects. Each has a short summary plus links.
 
-### Kubernetes Homelab
-- **Stack:** Debian, kubeadm, CNI (Calico), MetalLB, Longhorn
-- **Why:** Learn HA (high availability) patterns and GitOps
-- **Status:** In progress
-- **Repo:** _link soon_
 
-### PXE + iSCSI Boot Farm
-- **Stack:** dnsmasq, TFTP, iSCSI, Debian preseed
-- **Why:** Fast, reproducible node provisioning
-- **Status:** Stable
-- **Docs:** _link soon_
 
-### Network Rebuild w/ VLANs
-- **Stack:** EdgeRouter 4, Juniper EX2200, UniFi AP
-- **Why:** Segment management, guests, lab, test, and servers
-- **Status:** Stable
-- **Diagram:** see **Lab** page
+{% include card.html
+   title="Kubernetes Homelab"
+   href="/blog/2025/08/14/first-post/"
+   body="Debian + kubeadm, Calico, MetalLB, Longhorn. Learning HA/GitOps."
+   meta="Status: In progress" %}
+
+
+{% include card.html
+   title="PXE + iSCSI Boot Farm"
+   href="/lab/"
+   body="dnsmasq, TFTP, iSCSI, Debian preseed for reproducible provisioning."
+   meta="Status: Stable" %}
+
+
+{% include card.html
+   title="Network Rebuild w/ VLANs"
+   href="/lab/"
+   body="EdgeRouter 4, Juniper EX2200, UniFi AP. Segmentation & L2/L3 hygiene."
+   meta="Status: Stable" %}
+

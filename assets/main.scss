@@ -88,3 +88,16 @@ p, li { line-height: 1.65; }
 /* subtle hover on nav */
 .site-nav .page-link { transition: opacity .15s ease, transform .06s ease; }
 .site-nav .page-link:hover { opacity: 1; transform: translateY(-1px); }
+
+
+.card {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 14px 16px;
+  margin: 14px 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,.15);
+}
+.card h3 { margin: 0 0 .4rem 0; }
+.card a { text-decoration: none; }
+.card a:hover { text-decoration: underline; }

@@ -1,0 +1,5 @@
+<div class="card">
+  <h3><a href="{{ include.href | default:'#' }}">{{ include.title }}</a></h3>
+  <p>{{ include.body }}</p>
+  {% if include.meta %}<p><small>{{ include.meta }}</small></p>{% endif %}
+</div>
