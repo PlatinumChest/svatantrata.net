@@ -5,6 +5,7 @@ baseurl: ""
 
 theme: minima
 
+
 # Build settings
 markdown: kramdown
 plugins:
@@ -34,3 +35,4 @@ permalink: /blog/:year/:month/:day/:title/
 # Use dark by default with a small CSS override
 minima:
   skin: dark
+image: /assets/img/og.svg
