@@ -36,3 +36,10 @@ permalink: /blog/:year/:month/:day/:title/
 minima:
   skin: dark
 image: /assets/img/og.svg
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+paginate: 5
+paginate_path: "/blog/page:num/"
