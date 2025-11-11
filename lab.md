@@ -6,23 +6,22 @@ permalink: /lab/
 
 ### VLANs
 - **10**: Management
-- **20**: AI-Compute
+- **20**: Servers
 - **30**: External
-- **40**: Guest Wi‑Fi
-- **50**: Private/Test
-- **99**: Default
+- **40**: Guest
+- **50**: DMZ
+- **60**: Test
+- **70**: Enterprise
+- **100**: Router
 
 ### Core Gear
-- **Router:** EdgeRouter 4
+- **Router:** Virtualized OPNSense Router
 - **Switch:** Juniper EX2200
 - **Wireless:** UniFi AP
-- **Servers:** Dell C6100 nodes; 2 HP ProLiant DL360p Gen8 (128GB + 384GB)
+- **Servers:** Dell C6100 nodes; 2 HP ProLiant DL360p Gen8 (256GB each)
 
 ### Services
 - **Auth:** SSH + YubiKey
-- **Provisioning:** dnsmasq, TFTP, iSCSI
-- **K8s:** Control plane (ProLiant), workers (C6100)
-- **Monitoring:** (tbd)
-- **Backups:** (tbd)
+- **Monitoring:** Uptime Kuma
+- **Backups:** Offsite + Cloud
 
-![placeholder diagram](/assets/diagram/lab-diagram-placeholder.svg)
