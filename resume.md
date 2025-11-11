@@ -28,4 +28,8 @@ Comfortable with Linux, servers, and CLI-first workflows.
 - **High School Senior**, RUHS (2025–2026)
 
 **Certs/Courses**
-CS50x (in progress), CS50 AI (in progress), CompTIA (target), various BTC IT modules.
+Enterprise Fundamentals: Storage (including cloud, hybrid-cloud and multi-cloud models)
+Enterprise Fundamentals: Scripting & Automation
+Virtualizatoin: Hyper-V and VMWare Foundations
++ More
+Tech+ planning towards Security+ and Network+
