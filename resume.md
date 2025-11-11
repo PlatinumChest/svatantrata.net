@@ -28,9 +28,9 @@ Comfortable with Linux, servers, and CLI-first workflows.
 - **High School Senior**, RUHS (2025–2026)
 
 **Certs/Courses**
-Enterprise Fundamentals: Storage (including cloud, hybrid-cloud and multi-cloud models)
-Enterprise Fundamentals: Scripting & Automation
-Virtualizatoin: Hyper-V and VMWare Foundations
-and more similar courses
+- Enterprise Fundamentals: Storage (including cloud, hybrid-cloud and multi-cloud models)
+- Enterprise Fundamentals: Scripting & Automation
+- Virtualization: Hyper-V and VMWare Foundations
+- and more similar courses
 
-Tech+ planning towards Security+ and Network+
+- Tech+ planning towards Security+ and Network+
