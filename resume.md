@@ -31,5 +31,6 @@ Comfortable with Linux, servers, and CLI-first workflows.
 Enterprise Fundamentals: Storage (including cloud, hybrid-cloud and multi-cloud models)
 Enterprise Fundamentals: Scripting & Automation
 Virtualizatoin: Hyper-V and VMWare Foundations
-+ More
+and more similar courses
+
 Tech+ planning towards Security+ and Network+
