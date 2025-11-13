@@ -32,4 +32,4 @@ With a cluster I have a near limitless amount of computational power for my need
 - pve5: CPU - 2 x Xeon X5660 (24 cores), RAM - 24GB DDR3, Storage - 6TB HDD
 - pve6: CPU - 2 x Xeon X5600 (24 cores), RAM - 24GB DDR3, Storage - 6TB HDD 
 
-The plan for the following week is to set up a few game servers for my friends.
+The plan for the following week is to setup a few game servers for my friends.
