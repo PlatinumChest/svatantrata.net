@@ -3,7 +3,7 @@ layout: post
 title: "How my IT Operations Internship Went"
 ---
 
-Today, was the graduation day of my IT Internship where I had to present a capstone presentation on how the internship went here are some highlights of what I learned:
+July 25th, was the graduation day of my IT Internship where I had to present a capstone presentation on how the internship went here are some highlights of what I learned:
 &nbsp;
 - Mass Imaging: Using Avanti I was able to provision all of the new loaner laptops for the school including some staff devices with the appropriate software in place and ensuring devices were in their correct OU.
 - Firewall Overview: With the Network Engineer we looked at the current state of the firewall and the processes required to shift the rules while maintaining security as well as how the VPN connections function.
