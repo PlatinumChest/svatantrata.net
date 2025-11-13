@@ -1,0 +1,35 @@
+---
+layout: post
+title: ""
+---
+
+This weekend I finished the basic setup of my new homelab! 
+Using the 4 C6100 nodes I made a 3-way hyper-redundant Ceph cluster. This means of my 24TB Raw storage I now have 8TB of hyper-redundant storage. 
+All drives are SATA-III for fastest speeds possible. 
+If 1 of the drives fail the data is safe, if a node fails the data is fine and even if 2 nodes fail then the data is still there and when I swap any dead drives it will build itself back together. 
+There are also a few new mappings for some systems on my network:
+
+- Raspberry Pi 5: 192.168.10.10
+- Desktop: 192.168.10.20
+- Laptop: 192.168.10.30
+
+On Proxmox I made a 6-node cluster with the naming convention for each server being pve1, pve2 and so on this is the mapping for each node:
+
+- Proliant 1: pve1 (192.168.20.10)
+- Proliant 2: pve2 (192.168.20.20)
+- C6100 Node 1: pve3 (192.168.20.30)
+- C6100 Node 2: pve4 (192.168.20.40)
+- C6100 Node 3: pve5 (192.168.20.50)
+- C6100 Node 4: pve6 (192.168.20.60)
+
+pve1 and pve2 are the main nodes for controlling the ceph cluster and the overall proxmox cluster. 
+With a cluster I have a near limitless amount of computational power for my needs, this is the hardware specifications for each node:
+
+- pve1: CPU - 2 x Xeon E5-2609 v2 (8 cores), RAM - 256GB DDR3, Storage - 120GB SSD
+- pve2: CPU - 2 x Xeon E5-2609 v2 (8 cores), RAM - 256GB DDR3, Storage - 120GB SSD
+- pve3: CPU - 2 x Xeon X5660 (24 cores), RAM - 24GB DDR3, Storage - 6TB HDD
+- pve4: CPU - 2 x Xeon X5660 (24 cores), RAM - 24GB DDR3, Storage - 6TB HDD
+- pve5: CPU - 2 x Xeon X5660 (24 cores), RAM - 24GB DDR3, Storage - 6TB HDD
+- pve6: CPU - 2 x Xeon X5600 (24 cores), RAM - 24GB DDR3, Storage - 6TB HDD 
+
+The plan for the following week is to set up a few game servers for my friends.
