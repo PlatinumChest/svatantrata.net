@@ -13,7 +13,7 @@ I have configured my network with the following information on VLANS:
 - VLAN 40: Guests (192.168.40.0/24)
 - VLAN 50 Testing (192.168.50.0/24)
 - VLAN 99: Default (192.168.1.0/24)
-- 
+
 I have given each server their own ip for management and LAN access on VLAN 20 as follows:
 
 - Proliant 1: 192.168.20.10
