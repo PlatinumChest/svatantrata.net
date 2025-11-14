@@ -14,7 +14,7 @@ With that said I have created a plan of what services I need for each side:
   1. Nginx Proxy Manager - To make some services face the web
 
 - Untrusted Services:
-  1.qBittorrent - For torrenting needs
+  1. qBittorrent - For torrenting needs
   2. Pterodactyl Node - Moved once more for added security
 
 - Enterprise Services:
