@@ -10,8 +10,9 @@ permalink: /lab/
 - **30**: External
 - **40**: Guest
 - **50**: DMZ
-- **60**: Test
+- **60**: Untrusted
 - **70**: Enterprise
+- **80**: Personal
 - **100**: Router
 
 ### Core Gear
