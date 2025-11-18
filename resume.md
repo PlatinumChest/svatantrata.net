@@ -9,7 +9,7 @@ permalink: /resume/
 **Location:** Wisconsin, USA
 
 **Summary**
-Early-career CE + IT student with hands-on homelab experience, networking, and automation.
+Early-career CE + IT + CS student with hands-on homelab experience, networking, and automation.
 Comfortable with Linux, servers, and CLI-first workflows.
 
 **Skills**
