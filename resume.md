@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 
 **Name:** Alex  
-**Email:** alex@svatantrata.net  
+**Email:** alexcastellanos.tech@gmail.com
 **Location:** Wisconsin, USA
 
 **Summary**
