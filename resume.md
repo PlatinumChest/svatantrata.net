@@ -9,15 +9,12 @@ permalink: /resume/
 **Location:** Wisconsin, USA
 
 **Summary**
-Early-career CE + IT + CS student with hands-on homelab experience, networking, and automation.
-Comfortable with Linux, servers, and CLI-first workflows.
+Lead Architect at Vardhana Labs and Systems Thinker specializing in autonomous infrastructure agents. I leverage an enterprise-grade R&D environment—featuring Dell and HP ProLiant nodes with 500GB+ RAM—to build resilient, security-first systems.
 
 **Skills**
-- Linux (Debian), shell & git
-- Networking (VLANs, LACP, routing), Junos & EdgeOS
-- Virtualization & Containers
-- Scripting (Python/Bash), YAML & Markdown
-- Hardware: ProLiant/Dell, storage & monitoring
+- Infrastructure: Proxmox/Ceph HCI, Juniper Networking (VLANs, LACP), Enterprise Hardware.
+- Security: Anomaly Detection, Micro-segmentation, SIEM Integration, and Disaster Recovery.
+- Automation: Python (Proxmoxer), Scripting, and Deployment Playbooks.
 
 **Experience**
 - **IT Intern — Blackhawk Technical College** (Summer 2025)  
