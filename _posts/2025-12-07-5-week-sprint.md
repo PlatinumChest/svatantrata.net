@@ -59,4 +59,4 @@ While I cannot spin up 245 physical clients (yet), I can architect the Directory
 
 Tomorrow, it begins. I am pulling the plug and re-IPing critical services to the new Ring 0 architecture.
 
-I will see you all on the other side/
+I will see you all on the other side.
